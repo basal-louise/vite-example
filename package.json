@@ -7,7 +7,7 @@
     "start": "npx serve -p $PORT dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "gcp-build": "tsc",
+    "gcp-build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
